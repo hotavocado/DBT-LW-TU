@@ -1,0 +1,11 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "@id": "social_exposure_details",
+    "ui": {
+        "inputType": "text"
+    },
+    "question": "\r\n\r\n![socialize.png](https://raw.githubusercontent.com/ChildMindInstitute/DBT-pilot/main/images/png/socialize.png =250x250)\r\n\r\nQ14=yes, Please describe:"
+}

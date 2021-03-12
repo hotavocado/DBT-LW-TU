@@ -1,0 +1,25 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "@id": "self_validate",
+    "ui": {
+        "inputType": "radio"
+    },
+    "question": "\r\n\r\n![selfValidation.png](https://raw.githubusercontent.com/ChildMindInstitute/DBT-pilot/main/images/png/selfValidation.png =250x250)\r\n\r\nDid you complete any self-validation today?",
+    "responseOptions": {
+        "choices": [
+            {
+                "schema:value": 1,
+                "schema:name": "Yes",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 0,
+                "schema:name": "No",
+                "@type": "schema:option"
+            }
+        ]
+    }
+}
